@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 export default class TodoList extends Component {
 
   render () {
-alert("TodoList_render")
     return (
       <u1>
       {

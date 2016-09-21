@@ -11,18 +11,12 @@ export default class TodoApp extends Component {
   }
 
   onAdd (newTodo) {
-alert("TodoApps_onAdd")
-alert(newTodo)
-alert("this.state")
-alert(this.state)
     this.setState({
       todos : this.state.todos.concat({item: newTodo, status: 0})
     });
   }
 
   render() {
-  alert("TodoApp_render")
-  alert(this.state.todos)
     return (
       <div className="todoApp">
         <TodoCreator setTodo={this.onAdd.bind(this)}/>
