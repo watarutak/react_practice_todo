@@ -5,7 +5,6 @@ import TodoCreator from "./TodoCreator";
 export default class TodoApp extends Component {
   constructor(props) {
     super(props);
-    alert("TodoApps_const");
     this.state = {
       todos: [{item: "sample",status: 0,}]
     };
